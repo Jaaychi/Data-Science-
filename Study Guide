@@ -1,1 +1,61 @@
+The Data Science Process
 
+- Ask a question
+- Determine the necessary data
+- Get the data 
+- Clean and organize the data 
+- Explore the data 
+- Model the data
+- Communicate your findings
+
+1) The first thing you should do as a machine learning engineer or a data scientist is to formulate a question
+
+In data science we want to know the effects that different things have on each other.
+- For example, does sleeping late have a correlation to work life balance?
+- Will wearing a shoe determine the amount of nagging one will have on a hiking trip?
+- Is a song's popularity in the US related to a song's popularity globally?
+
+2) Scope
+- A question should be specific enough so that it could be answered
+- It shouldn't be too specific, just enough where data can be captured and to make insights
+
+3) Determining the Necessary Data
+- It's impossible to determine that something is true, but its possible to determine that something is not false. 
+- Looking at data for example Sriracha, we can't just create a hypothesis saying that is Sriracha the most popular sauce in the world. And we can just survey a group of 100 people and ask them if they prefer Sriracha over Frank's Red Hot. We would need to find out how Sriracha is consumed compared to other consumption of multiple other brands of hot sauce. 
+- We would then need to determine how much data we would need to collect. While it's preferable to get information from an entire population, we can just collect a sample set of data, a smaller amount of data that are representative of the entire population.
+- Rule of thumb the larger the sameple size the more diverse the data set is going to be and the more confident you'll be in your result
+
+The calculator determines sample size based on the following information.
+
+- Margin of error - The amount that the result of our survery will differ from the real popluation value. The larger the error, the less confidence we should have in the results.
+
+- Confidence Level - The probability that if we were to run another survey with the same metrics that it would return the same results. We want a high confidence level like 95% that our results are repeatable with another group.
+
+- Population size - Size of the population we're collecting data on. A common number used in sample size calculations is 100,000
+
+- Sample proportion - The percentage of people who surveyed whoses results we anticipate matching the expected outcome. If we do not have historical data, we normally use 50%
+
+There are a couple of different ways to get data:
+- Active data collection - running experiments and surveys
+- Passive data collection - looking for data that already exists, including locating datasets and web scraping
+
+- having a larger data set could be better to make business informed decisions. For example, an ai company that does facial recognition in the early stages only had a data set that recognizes white male features so down the line it'll be alot harder to do facial recognition for other races down the line
+
+Clean the Data
+- Data is typically organized in columns and rows like a spreadsheet,
+- however raw data can be stored in different files, like a json or a diffferent file format
+- This is true when you're getting data from a public dataset
+- Python library Pandas is a great tool for importing and organizing datasets,
+- You can turn csv files into readable tables using something called DataFrames
+
+
+There are two types of strategies in exploring data: statistical calculation or data visualizations
+Numpy is known as Numerical Python
+- This can be used to calculate the mean or average of data sets or certain columns
+
+Matplotlib or seaborn 
+- These are data visualization tools to visualize data
+
+Modeling and Analysis
+- We can create a model for exploratory analysis
+- 
